@@ -1,0 +1,199 @@
+
+.bg-img {
+    background-image: url(image/games.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(153, 153, 153);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+   
+    padding: 15px;
+   
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+   
+    font-size: 24px;
+}
+
+input {
+    
+    background-color: #fffcf7;
+}
+
+#sizer {
+
+    width: 1024px;
+
+    margin: 0 auto;
+}
+
+
+
+#swap-zone {
+
+    width: 75%;
+
+    margin: 25px auto;
+    
+    text-align: center;
+}
+
+#swap-zone input {
+
+    width: 200px;
+    height: 30px;
+    
+    font-size: 30px;
+}
+
+#swap-zone button {
+
+    width: 100px;
+    height: 36px;
+    
+    font-size: 22px;
+
+    vertical-align: top;
+}
+
+
+
+#current-turn {
+
+    width: 75%;
+
+    margin: 15px auto;
+    
+    text-align: center;
+}
+
+
+
+#game-div {
+    
+    text-align: center;
+}
+
+#player1,
+#result,
+#player2 {
+    position: relative;
+    display: inline-block;
+
+    width: 25%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    margin: 2%;
+    
+    text-align: center;
+    vertical-align: top;
+
+    border: 1px solid #000;
+}
+
+#player1-name,
+#player2-name {
+
+    margin-bottom: 15px;
+    
+    font-size: 28px;
+}
+
+#player1-chosen,
+#player2-chosen {
+
+    margin-top: 25px;
+    
+    font-size: 60px;
+}
+
+li {
+
+    margin: 12px 0;
+    
+    font-size: 24px;
+}
+
+.outcomes {
+
+    position: absolute;
+    bottom: 10px;
+
+    width: 90%;
+    
+    text-align: center;
+}
+
+.outcome-trackers {
+
+    display: inline-block;
+}
+
+#result h2 {
+
+    margin-top: 20px;
+    
+    font-size: 60px;
+}
+
+
+
+#chat {
+
+    position: relative;
+
+    width: 600px;
+    height: 150px;
+
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#chat-messages {
+
+    height: 125px;
+    overflow: auto;
+
+    background-color: #fffcf7;
+}
+
+#chat-bar {
+
+    position: absolute;
+    bottom: 10px;
+}
+
+#chat-input {
+
+    width: 550px;
+}
+
+#chat-send {
+
+    width: 40px;
+}
+
+.player1 {
+
+    color: #419d78;
+}
+
+.player2 {
+
+    color: #2d3047;
+}
+
+.player0 {
+    color: #000;
+
+    background-color: #d3d3d3;
+}
